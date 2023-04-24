@@ -7,9 +7,9 @@ import './App.css';
 
 const App = () => (
   <div className="app">
-    <div className="navbar">
+    {/* <div className="navbar">
       <Navbar />
-    </div>
+    </div> */}
     <div className="main">
       <Layout>
         <div className="routes">
@@ -32,7 +32,7 @@ const App = () => (
           </Switch>
         </div>
       </Layout>
-      <div className="footer">
+      {/* <div className="footer">
         <Typography.Title level={5} style={{ color: 'white', textAlign: 'center' }}>Copyright © 2021
           <Link to="/">
             Cryptoverse Inc.
@@ -44,7 +44,7 @@ const App = () => (
           <Link to="/exchanges">Exchanges</Link>
           <Link to="/news">News</Link>
         </Space>
-      </div>
+      </div> */}
     </div>
   </div>
 );
